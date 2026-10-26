@@ -1,0 +1,20 @@
+# 忽略所有 build 目录下的内容
+build/
+*/build/
+
+# 忽略 C++ 编译产物
+*.o
+*.out
+*.so
+*.a
+*.exe
+
+# 忽略模型文件（防止误传超大文件）
+*.gguf
+*.bin
+
+# 忽略 IDE 或编辑器产生的缓存
+.vscode/
+.idea/
+*.swp
+.DS_Store
